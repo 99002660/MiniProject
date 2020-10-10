@@ -20,4 +20,4 @@ jobs:
     - name: valgrind check
       run: |
         g++ bank.cpp 
-        valgrind ./a.out
+        valgrind chmod 777 ./a.out
